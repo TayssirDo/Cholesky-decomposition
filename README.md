@@ -1,1 +1,2 @@
 # Cholesky-decomposition
+The Cholesky decomposition is an efficient and reliable way to check if a symmetric matrix is positive definite. If a symmetric matrix is not positive definite, the Cholesky decomposition will fail.

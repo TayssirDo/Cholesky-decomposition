@@ -13,7 +13,7 @@ A = np.array([[7.3, 1, 0], [1, 20, 3.5], [0, 3.5, 2]])
 print('----- Matrix A: -----\n' + str(A) + '\n')
 
 # compute cholesky decomposition
-R = choleskyDecomposition(A)
+R = cholesky_decomposition(A)
 
 print('----- Matrix R: -----\n' + str(R) + '\n')
 print('--> Verification: \n' + str(R.transpose() @ R))

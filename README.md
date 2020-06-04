@@ -19,4 +19,7 @@ print('----- Matrix R: -----\n' + str(R) + '\n')
 print('--> Verification: \n' + str(R.transpose() @ R))
 ```
 
+## Notes
+1. G.H. Golub and C.F. Van Loan. Matrix Computations. The Johns Hopkins University Press, Baltimore, Maryland, 4th edition, 2013.
 
+2. Å. Björck. Numerical Methods in Matrix Computations. Springer,2015.

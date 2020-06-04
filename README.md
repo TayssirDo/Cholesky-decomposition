@@ -9,7 +9,7 @@ where <img src="https://render.githubusercontent.com/render/math?math=R \in \mat
 
 ## Example
 ```python
-A = np.array([[7.3, -1, 0], [-1, 20, -3.5], [0, -3.5, 2]])
+A = np.array([[7.3, 1, 0], [1, 20, 3.5], [0, 3.5, 2]])
 print('----- Matrix A: -----\n' + str(A) + '\n')
 
 # compute cholesky decomposition
